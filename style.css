@@ -5,7 +5,15 @@
 }
 
 :root{
-    
+    --rosa-01:#da6881;
+    --rosa-02:#fda6c9;
+    --rosa-03:#da6881;
+    --rosa-04:#e990a3;
+    --vermelho-01:#960000;
+    --vermelho-02:#bd0707;
+    --verdinho:#eff;
+    --wite:#ffeeee;
+    --marrom:#c7935378;
 }
 
 *::before,
@@ -13,7 +21,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #da6881;
+  background-color: ;
 }
 body{
     min-height: 100vh;
@@ -22,7 +30,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffeeee;
+    background: var(--wite);
 }
 .wrapper{
     position: relative;
@@ -35,7 +43,7 @@ body{
     height: 100%;
     inset: 0;
     position: absolute;
-    box-shadow: 10px 35px 25px #c7935378;
+    box-shadow: 10px 35px 25px var(--marrom);
 }
 .env::before{
     content: '';
