@@ -17,6 +17,7 @@
     --preto:#000000;
     --azul:#0000ff;
     --azul-02:#00BFFF;
+    --azul-03:#708090;
 }
 
 *::before,
@@ -66,7 +67,7 @@ body{
     content: '';
     position: absolute;
     inset: 0;
-    background: #960000;
+    background: var(--azul-03);
     border-radius: 1rem;
 }
 .front{/*Oque administra tudo*/
